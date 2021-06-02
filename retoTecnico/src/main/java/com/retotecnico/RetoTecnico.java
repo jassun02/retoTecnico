@@ -5,7 +5,6 @@
  */
 package com.retotecnico;
 
-import com.sun.org.apache.bcel.internal.generic.Select;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
