@@ -39,7 +39,7 @@ public class RetoTecnico {
             jse.executeScript("window.scrollTo(0,1600)");
             driver.findElement(By.xpath("//*[@id=\"candidate_first_name\"]")).sendKeys("Jeisson David");
             driver.findElement(By.xpath("//*[@id=\"candidate_last_name\"]")).sendKeys("Calderon Sua");
-            driver.findElement(By.xpath("//*[@id=\"candidate_email\"]")).sendKeys("Prueba1@pruebas.co");
+            driver.findElement(By.xpath("//*[@id=\"candidate_email\"]")).sendKeys("Prueba3@pruebas.co");
             driver.findElement(By.xpath("//*[@id=\"candidate_phone\"]")).sendKeys("3112869345");
             driver.findElement(By.xpath("//*[@id=\"candidate_accept_terms\"]")).click();
             driver.findElement(By.xpath("//*[@id=\"new_candidate\"]/span[6]/button")).click();
@@ -48,12 +48,12 @@ public class RetoTecnico {
             jse.executeScript("window.scrollTo(0,200)");
             driver.findElement(By.xpath("//*[@id=\"wrapperRegister\"]/div[1]/div/div[4]/button")).click();
             Thread.sleep(500);
-            driver.findElement(By.xpath("//*[@id=\"emailId\"]")).clear();
-            driver.findElement(By.xpath("//*[@id=\"emailId\"]")).sendKeys("Prueba1@pruebas.co");
-            driver.findElement(By.xpath("//*[@id=\"emailConfirmationId\"]")).sendKeys("Prueba1@pruebas.co");
+//            driver.findElement(By.xpath("//*[@id=\"emailId\"]")).clear();
+//            driver.findElement(By.xpath("//*[@id=\"emailId\"]")).sendKeys("Prueba1@pruebas.co");
+            driver.findElement(By.xpath("//*[@id=\"emailConfirmationId\"]")).sendKeys("Prueba3@pruebas.co");
             Thread.sleep(500);
             driver.findElement(By.xpath("//*[@id=\"formBasicCheckbox\"]")).click();
-            Thread.sleep(1000);
+            Thread.sleep(2000);
             driver.findElement(By.xpath("//*[@id=\"d-correo\"]")).click();
             driver.findElement(By.xpath("//*[@id=\"nameInputCopy\"]")).sendKeys("Jeisson David");
             driver.findElement(By.xpath("//*[@id=\"lastNameInputCopy\"]")).sendKeys("Calderon Sua");
@@ -79,23 +79,6 @@ public class RetoTecnico {
             driver.findElement(By.xpath("//*[@id=\"validationCustom01\"]")).sendKeys("UNIMINUTO");
             driver.findElement(By.xpath("//*[@id=\"validationCustom02\"]")).sendKeys("Estudiante");
             driver.findElement(By.xpath("//*[@id=\"formGridCity\"]")).click();
-            driver.findElement(By.xpath(""));
-            driver.findElement(By.xpath(""));
-            driver.findElement(By.xpath(""));
-            driver.findElement(By.xpath(""));
-            driver.findElement(By.xpath(""));
-            driver.findElement(By.xpath(""));
-            driver.findElement(By.xpath(""));
-            driver.findElement(By.xpath(""));
-            driver.findElement(By.xpath(""));
-            driver.findElement(By.xpath(""));
-            driver.findElement(By.xpath(""));
-            driver.findElement(By.xpath(""));
-            driver.findElement(By.xpath(""));
-            driver.findElement(By.xpath(""));
-            driver.findElement(By.xpath(""));
-            driver.findElement(By.xpath(""));
-
         } catch (Exception e) {
 
         } finally {
