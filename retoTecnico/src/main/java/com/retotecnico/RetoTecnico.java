@@ -5,6 +5,7 @@
  */
 package com.retotecnico;
 
+import com.sun.org.apache.bcel.internal.generic.Select;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -79,10 +80,13 @@ public class RetoTecnico {
             driver.findElement(By.xpath("//*[@id=\"validationCustom01\"]")).sendKeys("UNIMINUTO");
             driver.findElement(By.xpath("//*[@id=\"validationCustom02\"]")).sendKeys("Estudiante");
             driver.findElement(By.xpath("//*[@id=\"formGridCity\"]")).click();
+            
+            
         } catch (Exception e) {
 
         } finally {
             driver.close();
         }
     }
+    
 }
